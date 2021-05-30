@@ -60,7 +60,7 @@ function Home() {
 
                 </div>
             </nav>
-            <div className="container" style={{ marginTop: 50 }}>
+            <div className="container" style={{ marginTop: 50,minHeight: "calc(100vh - 310px)" }}>
 
                 <form className="form-inline mb-4 pl-4">
                     <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
